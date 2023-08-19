@@ -1,0 +1,113 @@
+/* Footer.css */
+.footer {
+    background-color: white;
+    color: rgb(66, 157, 209);
+    text-align: center;
+    
+    padding-bottom: 40px;
+    margin-top: 20px;
+
+  }
+  
+  .footer-content {
+    background-color:white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    padding-top: 22px;
+    margin-top: 22px;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    color:black;
+    padding-top: 30px;
+    font-size: small;
+    padding-bottom: 0;
+  }
+  .logo-img{
+    max-width: 100px; /* Adjust the maximum width as needed */
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  .ortho-img{
+    width: 15%;
+    height:15%;
+  }
+  .subscribe{
+    color: black;
+  }
+
+  /* Footer.css */
+/* ... other styles ... */
+
+/* Footer.css */
+/* ... other styles ... */
+
+.subscribe-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add this line */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .mailbox-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .email-input {
+    border: none;
+    outline: none;
+  }
+  
+  .subscribe-button {
+    background-color: rgb(66, 157, 209);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .email-box {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .social-icons {
+    display: inline-block;
+  margin-left: 10px;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .twitter-icon {
+    color: #1DA1F2; /* Twitter blue color */
+  }
+  
+  .facebook-icon {
+    color: #1877F2; /* Facebook blue color */
+  }
+  
+  .linkedin-icon {
+    color: #0077B5; /* LinkedIn blue color */
+  }
+  
+  .instagram-icon {
+    color: #E4405F; /* Instagram pink color */
+  }
+  p{
+    color: black;
+  }

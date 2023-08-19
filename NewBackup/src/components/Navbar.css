@@ -1,0 +1,54 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  
+  .logo-img{
+    max-width: 100px; /* Adjust the maximum width as needed */
+  height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: rgb(66, 157, 209);
+    text-decoration: none;
+    font-weight: 450;
+  }
+  
+  .right-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none; /* Remove the default blue outline on focus */
+    transition: border-color 0.2s;
+  }
+  
+  /* Apply styles on focus */
+  .search-bar:focus {
+    border-color: rgb(66, 157, 209);
+    box-shadow: 0 0 3px rgba(66, 157, 209, 0.6);
+  }
+  .login-button {
+    padding: 8px 16px;
+    background-color: rgb(66, 157, 209);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  

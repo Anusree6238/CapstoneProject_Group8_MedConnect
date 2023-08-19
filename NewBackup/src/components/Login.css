@@ -1,0 +1,128 @@
+body {
+
+    margin: 0;
+  
+    padding: 0;
+  
+    font-family: Arial, sans-serif;
+  
+   }
+  
+   /* Main Content Styles */
+  
+  /* Main Content Styles */
+.main {
+    position: relative;
+    height: 60vh;
+    background-image: url('./images/lavenderbg.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust the alpha value to control transparency */
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+   .login-form {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+   }
+  
+   .form-group {
+  
+    margin-bottom: 15px;
+  
+   }
+  
+   label {
+  
+    font-weight: bold;
+  
+    margin-bottom: 5px;
+  
+   }
+  
+   input[type="text"],
+  
+   input[type="password"] {
+  
+    padding: 10px;
+  
+    border: 1px solid #ccc;
+  
+    border-radius: 4px;
+  
+    font-size: 14px;
+  
+   }
+  
+   .error-message {
+  
+    color: red;
+  
+    font-size: 12px;
+  
+    margin-top: 5px;
+  
+   }
+  
+   .login-button {
+  
+    background-color:rgb(66, 157, 209);
+  
+    color: #ffffff;
+  
+    border: none;
+  
+    border-radius: 4px;
+  
+    padding: 8px 16px;
+  
+    font-size: 14px;
+  
+    cursor: pointer;
+  
+   
+  
+   }
+  
+   
+  
+   .register-button {
+  
+    background-color: #28a745;
+  
+    color: #ffffff;
+  
+    border: none;
+  
+    border-radius: 4px;
+  
+    padding: 10px 20px;
+  
+    font-size: 16px;
+  
+    text-decoration: none;
+  
+    transition: background-color 0.3s ease;
+  
+   }
+  
+   .register-button:hover {
+  
+    background-color: #1e7e34;
+  
+   }
